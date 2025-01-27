@@ -1,2 +1,2 @@
-# Travelling_Salesman_Optimization
+# Mixed_Reality_AVP
 CSCI 6836 Research Project Team Website
