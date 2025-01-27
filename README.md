@@ -1,2 +1,2 @@
 # Mixed_Reality_AVP
-CSCI 6836 Research Project Team Website
+CSCI 6838 Research Project Team Website
