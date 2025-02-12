@@ -1,0 +1,266 @@
+.meeting-minutes-layout349 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.meeting-minutes-max-width {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.meeting-minutes-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
+}
+ 
+.meeting-minutes-container2 {
+  width: 100%;
+}
+ 
+.meeting-minutes-card1 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.meeting-minutes-card2 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+.meeting-minutes-card3 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.meeting-minutes-card4 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+.meeting-minutes-card5 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+.meeting-minutes-card6 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.meeting-minutes-card7 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+.meeting-minutes-card8 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.meeting-minutes-fragment10 {
+  display: contents;
+}
+ 
+.meeting-minutes-text19 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment11 {
+  display: contents;
+}
+ 
+.meeting-minutes-text20 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment12 {
+  display: contents;
+}
+ 
+.meeting-minutes-text21 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment13 {
+  display: contents;
+}
+ 
+.meeting-minutes-text22 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment14 {
+  display: contents;
+}
+ 
+.meeting-minutes-text23 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment15 {
+  display: contents;
+}
+ 
+.meeting-minutes-text24 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment16 {
+  display: contents;
+}
+ 
+.meeting-minutes-text25 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment17 {
+  display: contents;
+}
+ 
+.meeting-minutes-text26 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment18 {
+  display: contents;
+}
+ 
+.meeting-minutes-text27 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment19 {
+  display: contents;
+}
+ 
+.meeting-minutes-text28 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment20 {
+  display: contents;
+}
+ 
+.meeting-minutes-text29 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment21 {
+  display: contents;
+}
+ 
+.meeting-minutes-text30 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment22 {
+  display: contents;
+}
+ 
+.meeting-minutes-text31 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment23 {
+  display: contents;
+}
+ 
+.meeting-minutes-text32 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .meeting-minutes-max-width {
+    flex-direction: column;
+  }
+  .meeting-minutes-container1 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .meeting-minutes-container1 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .meeting-minutes-card1 {
+    width: 100%;
+  }
+  .meeting-minutes-card2 {
+    width: 100%;
+  }
+  .meeting-minutes-card3 {
+    width: 100%;
+  }
+  .meeting-minutes-card4 {
+    width: 100%;
+  }
+  .meeting-minutes-card5 {
+    width: 100%;
+  }
+  .meeting-minutes-card6 {
+    width: 100%;
+  }
+  .meeting-minutes-card7 {
+    width: 100%;
+  }
+  .meeting-minutes-card8 {
+    width: 100%;
+  }
+}
