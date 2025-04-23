@@ -268,20 +268,24 @@
  
 @media(max-width: 479px) {
   .header-header1 {
-    height: 1236px;
+    height: 1087px;
     padding-top: 174px;
-    padding-bottom: 20px;
+    padding-bottom: var(--dl-layout-space-fourunits);
   }
   .header-max-width {
-    height: 1258px;
+    height: 1000px;
   }
   .header-content1 {
-    height: 324px;
+    height: 290px;
+  }
+  .header-container2 {
+    height: 291px;
   }
   .header-image1 {
     top: 49px;
     left: -8px;
-    height: 99px;
+    height: 261px;
+    margin-bottom: 0px;
   }
 }
 
@@ -289,15 +293,10 @@
   display: contents;
 }
  
-.faculty-team8 {
-  height: 753px;
-  padding-bottom: var(--dl-layout-space-twounits);
-}
- 
 .faculty-max-width {
-  gap: var(--dl-layout-space-twounits);
-  height: auto;
+  gap: var(--dl-layout-space-fiveunits);
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
 }
@@ -314,6 +313,7 @@
 .faculty-content1 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
+  align-self: stretch;
   align-items: center;
   flex-direction: column;
 }
@@ -337,28 +337,29 @@
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+}
+ 
+.faculty-placeholder-image1 {
+  width: 80px;
+  height: 80px;
 }
  
 .faculty-content2 {
   gap: var(--dl-layout-space-unit);
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-title1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-text11 {
-  align-self: center;
   font-style: normal;
   font-weight: 600;
 }
@@ -371,29 +372,29 @@
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+}
+ 
+.faculty-placeholder-image2 {
+  width: 80px;
+  height: 80px;
 }
  
 .faculty-content3 {
   gap: var(--dl-layout-space-unit);
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-title2 {
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-text13 {
-  align-self: center;
   font-style: normal;
   font-weight: 600;
 }
@@ -406,29 +407,29 @@
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+}
+ 
+.faculty-placeholder-image3 {
+  width: 80px;
+  height: 80px;
 }
  
 .faculty-content4 {
   gap: var(--dl-layout-space-unit);
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-title3 {
   display: flex;
-  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
  
 .faculty-text15 {
-  align-self: center;
   font-style: normal;
   font-weight: 600;
 }
@@ -464,6 +465,13 @@
   flex-direction: column;
 }
  
+.faculty-placeholder-image4 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ 
 .faculty-content5 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -482,7 +490,7 @@
   font-weight: 600;
 }
  
-.faculty-text19 {
+.faculty-text18 {
   text-align: center;
 }
  
@@ -502,6 +510,13 @@
   flex-direction: column;
 }
  
+.faculty-placeholder-image5 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ 
 .faculty-content6 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -515,12 +530,12 @@
   flex-direction: column;
 }
  
-.faculty-text21 {
+.faculty-text19 {
   font-style: normal;
   font-weight: 600;
 }
  
-.faculty-text22 {
+.faculty-text20 {
   text-align: center;
 }
  
@@ -540,6 +555,13 @@
   flex-direction: column;
 }
  
+.faculty-placeholder-image6 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ 
 .faculty-content7 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -553,25 +575,17 @@
   flex-direction: column;
 }
  
-.faculty-text23 {
+.faculty-text21 {
   font-style: normal;
   font-weight: 600;
 }
  
-.faculty-text25 {
+.faculty-text22 {
   text-align: center;
 }
  
 .faculty-slider-pagination2 {
   display: block;
-}
- 
-.home-fragment22 {
-  display: contents;
-}
- 
-.home-text22 {
-  display: inline-block;
 }
  
 .home-fragment16 {
@@ -582,11 +596,11 @@
   display: inline-block;
 }
  
-.home-fragment21 {
+.home-fragment17 {
   display: contents;
 }
  
-.home-text21 {
+.home-text17 {
   display: inline-block;
 }
  
@@ -595,14 +609,6 @@
 }
  
 .home-text18 {
-  display: inline-block;
-}
- 
-.home-fragment17 {
-  display: contents;
-}
- 
-.home-text17 {
   display: inline-block;
 }
  
@@ -622,62 +628,40 @@
   display: inline-block;
 }
  
+.home-fragment21 {
+  display: contents;
+}
+ 
+.home-text21 {
+  display: inline-block;
+}
+ 
+.home-fragment22 {
+  display: contents;
+}
+ 
+.home-text22 {
+  display: inline-block;
+}
+ 
 @media(max-width: 1200px) {
-  .faculty-team8 {
-    height: 646px;
+  .faculty-slider2 {
+    display: none;
   }
 }
  
 @media(max-width: 991px) {
-  .faculty-team8 {
-    height: 443px;
-    padding-top: 21px;
-    padding-bottom: 12px;
+  .faculty-slider2 {
+    display: none;
   }
 }
  
 @media(max-width: 767px) {
-  .faculty-team8 {
-    height: 855px;
-    padding: var(--dl-layout-space-threeunits);
-  }
-  .faculty-max-width {
-    padding: var(--dl-layout-space-threeunits);
-  }
   .faculty-slider1 {
     display: none;
   }
   .faculty-slider2 {
     display: block;
-  }
-}
- 
-@media(max-width: 479px) {
-  .faculty-team8 {
-    height: 443px;
-    padding: var(--dl-layout-space-oneandhalfunits);
-  }
-  .faculty-max-width {
-    height: 449px;
-    padding: var(--dl-layout-space-oneandhalfunits);
-  }
-  .faculty-content5 {
-    justify-content: center;
-  }
-  .faculty-title4 {
-    justify-content: center;
-  }
-  .faculty-content6 {
-    justify-content: center;
-  }
-  .faculty-title5 {
-    justify-content: center;
-  }
-  .faculty-content7 {
-    justify-content: center;
-  }
-  .faculty-title6 {
-    justify-content: center;
   }
 }
 
@@ -1103,7 +1087,7 @@
  
 @media(max-width: 479px) {
   .project-team-team1 {
-    height: 1266px;
+    height: 1157px;
   }
   .project-team-text10 {
     text-align: center;
@@ -1886,7 +1870,7 @@
  
 @media(max-width: 479px) {
   .meeting-minutes-layout349 {
-    height: 1370px;
+    height: 1727px;
     padding-top: 84px;
     padding-bottom: 28px;
   }

@@ -102,19 +102,23 @@
  
 @media(max-width: 479px) {
   .header-header1 {
-    height: 1236px;
+    height: 1087px;
     padding-top: 174px;
-    padding-bottom: 20px;
+    padding-bottom: var(--dl-layout-space-fourunits);
   }
   .header-max-width {
-    height: 1258px;
+    height: 1000px;
   }
   .header-content1 {
-    height: 324px;
+    height: 290px;
+  }
+  .header-container2 {
+    height: 291px;
   }
   .header-image1 {
     top: 49px;
     left: -8px;
-    height: 99px;
+    height: 261px;
+    margin-bottom: 0px;
   }
 }
