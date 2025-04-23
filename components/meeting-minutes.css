@@ -1,5 +1,5 @@
 .meeting-minutes-layout349 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   overflow: hidden;
   position: relative;
@@ -14,11 +14,11 @@
 }
  
 .meeting-minutes-container1 {
-  gap: var(--dl-space-space-halfunit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   max-width: 600px;
   align-items: center;
-  margin-bottom: var(--dl-space-space-fourunits);
+  margin-bottom: var(--dl-layout-space-fourunits);
   flex-direction: column;
 }
  
@@ -57,6 +57,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-theme-accent1);
+}
+ 
+.meeting-minutes-link13 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
 }
  
 .meeting-minutes-card4 {
@@ -226,18 +231,98 @@
   display: inline-block;
 }
  
+.meeting-minutes-fragment24 {
+  display: contents;
+}
+ 
+.meeting-minutes-text33 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment25 {
+  display: contents;
+}
+ 
+.meeting-minutes-text34 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment26 {
+  display: contents;
+}
+ 
+.meeting-minutes-text35 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment27 {
+  display: contents;
+}
+ 
+.meeting-minutes-text36 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment28 {
+  display: contents;
+}
+ 
+.meeting-minutes-text37 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment29 {
+  display: contents;
+}
+ 
+.meeting-minutes-text38 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment30 {
+  display: contents;
+}
+ 
+.meeting-minutes-text39 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment31 {
+  display: contents;
+}
+ 
+.meeting-minutes-text40 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment32 {
+  display: contents;
+}
+ 
+.meeting-minutes-text41 {
+  display: inline-block;
+}
+ 
+.meeting-minutes-fragment33 {
+  display: contents;
+}
+ 
+.meeting-minutes-text42 {
+  display: inline-block;
+}
+ 
 @media(max-width: 991px) {
   .meeting-minutes-max-width {
     flex-direction: column;
   }
   .meeting-minutes-container1 {
-    margin-bottom: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-layout-space-threeunits);
   }
 }
  
 @media(max-width: 767px) {
   .meeting-minutes-container1 {
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-layout-space-oneandhalfunits);
   }
   .meeting-minutes-card1 {
     width: 100%;
@@ -262,5 +347,13 @@
   }
   .meeting-minutes-card8 {
     width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .meeting-minutes-layout349 {
+    height: 1370px;
+    padding-top: 84px;
+    padding-bottom: 28px;
   }
 }

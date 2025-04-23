@@ -1,10 +1,10 @@
 .faculty-team8 {
   height: 753px;
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-layout-space-twounits);
 }
  
 .faculty-max-width {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   height: auto;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
 }
  
 .faculty-section-title {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   width: 100%;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@
 }
  
 .faculty-content1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,15 +35,15 @@
 }
  
 .faculty-slider-slide1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
 }
  
 .faculty-card1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -51,7 +51,7 @@
 }
  
 .faculty-content2 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: center;
   align-items: center;
@@ -77,7 +77,7 @@
 }
  
 .faculty-card2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -85,7 +85,7 @@
 }
  
 .faculty-content3 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: center;
   align-items: center;
@@ -112,7 +112,7 @@
 }
  
 .faculty-card3 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -120,7 +120,7 @@
 }
  
 .faculty-content4 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: center;
   align-items: center;
@@ -158,15 +158,15 @@
 }
  
 .faculty-slider-slide2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
 }
  
 .faculty-card4 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: center;
@@ -174,7 +174,7 @@
 }
  
 .faculty-content5 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -196,15 +196,15 @@
 }
  
 .faculty-slider-slide3 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
 }
  
 .faculty-card5 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: center;
@@ -212,7 +212,7 @@
 }
  
 .faculty-content6 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -234,15 +234,15 @@
 }
  
 .faculty-slider-slide4 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
 }
  
 .faculty-card6 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-items: center;
@@ -250,7 +250,7 @@
 }
  
 .faculty-content7 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -348,10 +348,10 @@
 @media(max-width: 767px) {
   .faculty-team8 {
     height: 855px;
-    padding: var(--dl-space-space-threeunits);
+    padding: var(--dl-layout-space-threeunits);
   }
   .faculty-max-width {
-    padding: var(--dl-space-space-threeunits);
+    padding: var(--dl-layout-space-threeunits);
   }
   .faculty-slider1 {
     display: none;
@@ -363,12 +363,12 @@
  
 @media(max-width: 479px) {
   .faculty-team8 {
-    height: 583px;
-    padding: var(--dl-space-space-oneandhalfunits);
+    height: 443px;
+    padding: var(--dl-layout-space-oneandhalfunits);
   }
   .faculty-max-width {
-    height: 556px;
-    padding: var(--dl-space-space-oneandhalfunits);
+    height: 449px;
+    padding: var(--dl-layout-space-oneandhalfunits);
   }
   .faculty-content5 {
     justify-content: center;

@@ -1,11 +1,11 @@
 .project-team-team1 {
   height: 634px;
   padding-top: 39px;
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
 }
  
 .project-team-max-width {
-  gap: var(--dl-space-space-fiveunits);
+  gap: var(--dl-layout-space-fiveunits);
   display: flex;
   position: relative;
   align-items: center;
@@ -13,7 +13,7 @@
 }
  
 .project-team-section-title {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   width: 100%;
   display: flex;
   max-width: 800px;
@@ -23,7 +23,7 @@
 }
  
 .project-team-content1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   display: flex;
   align-self: stretch;
@@ -32,7 +32,7 @@
 }
  
 .project-team-content2 {
-  gap: var(--dl-space-space-sixunits);
+  gap: var(--dl-layout-space-sixunits);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -48,7 +48,7 @@
 }
  
 .project-team-row1 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
@@ -57,7 +57,7 @@
 }
  
 .project-team-container1 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -65,7 +65,7 @@
 }
  
 .project-team-card1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
   display: flex;
@@ -82,7 +82,7 @@
 }
  
 .project-team-content4 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -106,7 +106,7 @@
 }
  
 .project-team-card2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
   display: flex;
@@ -123,7 +123,7 @@
 }
  
 .project-team-content5 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -147,7 +147,7 @@
 }
  
 .project-team-card3 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
   display: flex;
@@ -164,7 +164,7 @@
 }
  
 .project-team-content6 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -188,7 +188,7 @@
 }
  
 .project-team-row2 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
@@ -197,7 +197,7 @@
 }
  
 .project-team-container2 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -205,7 +205,7 @@
 }
  
 .project-team-card4 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
   display: flex;
@@ -222,7 +222,7 @@
 }
  
 .project-team-content7 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -246,7 +246,7 @@
 }
  
 .project-team-card5 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
   display: flex;
@@ -263,7 +263,7 @@
 }
  
 .project-team-content8 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -380,7 +380,7 @@
     padding-top: 19px;
   }
   .project-team-content2 {
-    gap: var(--dl-space-space-fourunits);
+    gap: var(--dl-layout-space-fourunits);
   }
 }
  
@@ -416,7 +416,7 @@
  
 @media(max-width: 479px) {
   .project-team-team1 {
-    height: 1130px;
+    height: 1266px;
   }
   .project-team-text10 {
     text-align: center;
