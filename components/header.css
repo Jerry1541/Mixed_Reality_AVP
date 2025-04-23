@@ -102,9 +102,19 @@
  
 @media(max-width: 479px) {
   .header-header1 {
-    height: 1116px;
+    height: 1236px;
+    padding-top: 174px;
+    padding-bottom: 20px;
+  }
+  .header-max-width {
+    height: 1258px;
+  }
+  .header-content1 {
+    height: 324px;
   }
   .header-image1 {
-    height: 243px;
+    top: 49px;
+    left: -8px;
+    height: 99px;
   }
 }
